@@ -14,11 +14,11 @@
     name: fontconfig
     state: present
 
-- name: Enable LCD filter
-  file:
-    src: /etc/fonts/conf.avail/11-lcdfilter-default.conf
-    dest: /etc/fonts/conf.d/11-lcdfilter-default.conf
-    state: link
+#- name: Enable LCD filter
+#  file:
+#    src: /etc/fonts/conf.avail/11-lcdfilter-default.conf
+#    dest: /etc/fonts/conf.d/11-lcdfilter-default.conf
+#    state: link
 
 - name: Enable sub-pixel rendering
   file:
