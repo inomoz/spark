@@ -58,7 +58,7 @@ network:
         - f74f2bd5-8748-4e1e-98f9-dae2dd44b916
 
 editors:
-    - gvim
+    - neovim
 
 video_drivers:
     - libva-intel-driver
