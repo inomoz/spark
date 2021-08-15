@@ -88,7 +88,7 @@
     - { role: logitech, tags: ['logitech'] }
     - { role: pydev, tags: ['pydev'] }
     - { role: aria2, tags: ['aria2'] }
-    - { role: signal, tags: ['signal'] }
+    # - { role: signal, tags: ['signal'] }
     - { role: android, tags: ['android'] }
     - { role: ripgrep, tags: ['ripgrep'] }
     - { role: zeal, tags: ['zeal'] }
