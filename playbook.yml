@@ -13,7 +13,7 @@
     - { role: ssd, tags: ['ssd'] }
     # - { role: interception, tags: ['interception'], when: "interception is defined" }
     - { role: fonts, tags: ['fonts'] }
-    # - { role: x, tags: ['x'] }
+    - { role: x, tags: ['x'] }
     - { role: alacritty, tags: ['alacritty'] }
     - { role: lightdm, tags: ['lightdm'], when: "display_manager == 'lightdm'" }
     - { role: gdm, tags: ['gdm'], when: "display_manager == 'gdm'" }
