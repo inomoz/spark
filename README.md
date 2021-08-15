@@ -2,6 +2,8 @@
 
 --skip-tag=kernelparams --ski-tag=laptop
 
+check fonts tasks
+
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
 [Arch Linux][2]. It is intended to run locally on a fresh Arch install (ie,
 taking the place of any [post-installation][3]), but due to Ansible's
