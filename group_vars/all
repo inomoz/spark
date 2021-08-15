@@ -1,9 +1,9 @@
 user:
-    name: pigmonkey
+    name: inomoz
     uid: 1000
-    group: pigmonkey
+    group: inomoz
     shell: /usr/bin/zsh
-    email:  peter@havenaut.net
+    email:  noname@example.com
     log:
         dir: log
         rotate: 8
