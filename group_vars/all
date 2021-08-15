@@ -16,10 +16,7 @@ interception:
         mode: 1
         delay: 20000
 
-dotfiles:
-    url: https://github.com/pigmonkey/dotfiles
-    destination: projects/dotfiles
-    rcup_flags: -fx README.md
+
 
 aur:
     dir: aur
