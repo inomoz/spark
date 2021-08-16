@@ -80,7 +80,6 @@ base_packages:
     - moreutils
     - dateutils
     - bc
-    - ranger
     - arch-wiki-lite
     - arch-wiki-docs
     - python-keyring
