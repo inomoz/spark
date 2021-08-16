@@ -1,8 +1,9 @@
 # Spark
-
---skip-tag=kernelparams --ski-tag=laptop
+ --skip-tag=laptop,kernelparams
 
 check fonts tasks
+
+nmcli --terse -f uuid conn show --active > /etc/nmtrust/trusted_networks
 
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
 [Arch Linux][2]. It is intended to run locally on a fresh Arch install (ie,
