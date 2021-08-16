@@ -3,13 +3,9 @@
   pacman:
     name:
       - i3-wm
-      - i3blocks
       - i3lock
       - i3status
     state: present
-
-- name: Install py3status
-  pacman: name=py3status state=present
 
 - name: Verify that default applications file exists
   file: path=/etc/xdg/mimeapps.list state=touch
