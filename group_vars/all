@@ -32,6 +32,7 @@ aur:
         - ctmg
         - spiped
         - bitlbee
+        - polybar
 
 ssh:
     port: 22
