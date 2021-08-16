@@ -2,7 +2,7 @@ user:
     name: inomoz
     uid: 1000
     group: inomoz
-    shell: /usr/bin/zsh
+    shell: /usr/bin/bash
     email:  noname@example.com
     log:
         dir: log
