@@ -33,6 +33,7 @@ aur:
         - spiped
         - bitlbee
         - polybar
+        - slack-desktop
 
 ssh:
     port: 22
