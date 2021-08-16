@@ -22,7 +22,7 @@
     - { role: pass, tags: ['pass'] }
     - { role: iptables, tags: ['iptables'] }
     - { role: nettools, tags: ['nettools'] }
-    # - { role: nmtrust, tags: ['nmtrust'] }
+    - { role: nmtrust, tags: ['nmtrust'] }
     # - { role: unbound, tags: ['unbound'] }
     - { role: openresolv, tags: ['openresolv'] }
     - { role: networkmanager, tags: ['networkmanager'] }
