@@ -95,6 +95,7 @@ base_packages:
     - fzf
     - cpulimit
     - nnn
+    - adapta-gtk-theme
 
 filesystem_packages:
     - dosfstools
@@ -248,33 +249,15 @@ gdm:
 desktop_environment: i3
 
 base_fonts:
-    - adobe-source-code-pro-fonts
-    - cantarell-fonts
     - gsfonts
     - noto-fonts
-    - terminus-font
-    - tex-gyre-fonts
-    - ttf-caladea
-    - ttf-carlito
     - ttf-dejavu
     - ttf-droid
-    - ttf-fira-mono
-    - ttf-ibm-plex
-    - ttf-inconsolata
     - ttf-liberation
     - ttf-opensans
-    - ttf-ubuntu-font-family
 
 aur_fonts:
-    - ttf-bitstream-charter
-    - ttf-cooper-hewitt
-    - ttf-courier-prime
-    - ttf-heuristica
-    - ttf-merriweather
-    - ttf-merriweather-sans
-    - ttf-oswald
-    - ttf-quintessential
-    - ttf-signika
+    - nerd-fonts-victor-mono
 
 syncthing:
     run_on: trusted
