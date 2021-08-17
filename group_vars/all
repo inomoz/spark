@@ -36,6 +36,9 @@ aur:
         - slack-desktop
         - yadm
         - cursor-theme-macos-big-sur
+        - crow-translate
+        - drawio-desktop-bin
+        
 
 ssh:
     port: 22
@@ -98,6 +101,17 @@ base_packages:
     - nnn
     - adapta-gtk-theme
     - kvantum-qt5
+    - anki
+    - audacity
+    - kdenlive
+    - klavaro
+    - calibre
+    - blender
+    - picom
+    - copyq
+    - godot
+    - remmina
+    - skypeforlinux-stable-bin
 
 filesystem_packages:
     - dosfstools
