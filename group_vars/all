@@ -38,6 +38,7 @@ aur:
         - cursor-theme-macos-big-sur
         - crow-translate
         - drawio-desktop-bin
+        - deadbeef-git
         
 
 ssh:
@@ -116,7 +117,7 @@ base_packages:
     - grive
     - rclone
     - simplescreenrecorder
-    - deadbeef-git
+    - krita
 
 filesystem_packages:
     - dosfstools
