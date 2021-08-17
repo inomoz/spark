@@ -112,6 +112,7 @@ base_packages:
     - godot
     - remmina
     - skypeforlinux-stable-bin
+    - rofi-pass
 
 filesystem_packages:
     - dosfstools
