@@ -114,6 +114,7 @@ base_packages:
     - skypeforlinux-stable-bin
     - rofi-pass
     - grive
+    - rclone
 
 filesystem_packages:
     - dosfstools
