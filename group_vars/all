@@ -35,6 +35,7 @@ aur:
         - polybar
         - slack-desktop
         - yadm
+        - cursor-theme-macos-big-sur
 
 ssh:
     port: 22
