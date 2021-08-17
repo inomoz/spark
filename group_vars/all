@@ -1,7 +1,7 @@
 user:
-    name: inomoz
+    name: inom
     uid: 1000
-    group: inomoz
+    group: inom
     shell: /usr/bin/bash
     email:  noname@example.com
     log:
