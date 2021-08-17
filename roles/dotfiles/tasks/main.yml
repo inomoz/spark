@@ -1,6 +1,6 @@
 ---
 - name: Clone polybar scripts
-  git: repo='https://github.com/inomoz/polybar-scripts' dest=/home/{{ user.name }}/polybar-scripts accept_hostkey=yes update=no
+  git: repo='https://github.com/inomoz/polybar-scripts' dest=/home/{{ user.name }}/scripts/polybar-scripts accept_hostkey=yes update=no
   become: yes
   become_user: "{{ user.name }}"
   
