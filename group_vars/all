@@ -113,6 +113,7 @@ base_packages:
     - remmina
     - skypeforlinux-stable-bin
     - rofi-pass
+    - grive
 
 filesystem_packages:
     - dosfstools
