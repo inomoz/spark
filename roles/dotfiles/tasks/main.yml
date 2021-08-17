@@ -5,8 +5,12 @@
   become_user: "{{ user.name }}"
   
 - name: Install dotfiles
-  ansible.builtin.shell: config-initialize.sh >> /tmp/config-initialize.log
-  become: yes
-  become_user: "{{ user.name }}"
+  ansible.builtin.shell: |
+    #!/bin/bash
+    git init --bare $HOME/.projects
+    alias config='/usr/bin/git --git-dir=$HOME/.projects/ --work-tree=$HOME'
+    config config --local status.showUntrackedFiles no
+    echo "alias config='/usr/bin/git --git-dir=$HOME/.projects/ --work-tree=$HOME'" >> $HOME/.bashrc
   args:
     executable: /bin/bash
+  delegate_to: localhost
