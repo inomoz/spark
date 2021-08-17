@@ -116,6 +116,7 @@ base_packages:
     - grive
     - rclone
     - simplescreenrecorder
+    - deadbeef-git
 
 filesystem_packages:
     - dosfstools
