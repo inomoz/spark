@@ -115,6 +115,7 @@ base_packages:
     - rofi-pass
     - grive
     - rclone
+    - simplescreenrecorder
 
 filesystem_packages:
     - dosfstools
