@@ -6,5 +6,7 @@
   
 - name: Install dotfiles
   ansible.builtin.shell: config-initialize.sh >> /tmp/config-initialize.log
+  become: yes
+  become_user: "{{ user.name }}"
   args:
     executable: /bin/bash
