@@ -1,16 +1,9 @@
 # Spark
 
 ## Initialize dotfiles
-```
-cd /tmp
-wget https://github.com/inomoz/dotfiles/archive/refs/heads/master.zip 
-unzip master
-cp -irT dotfiles-master/ ~/
-```
 
 ```
 git clone git@github.com:inomoz/polybar-scripts.git $HOME/scripts/
-git clone --bare git@github.com:inomoz/dotfiles.git $HOME/.dotfiles
 ```
 
 ## Trust active networks
