@@ -1,6 +1,6 @@
-git clone --bare https://github.com/inomoz/dotfiles $HOME/.projects
+git clone --bare https://github.com/inomoz/dotfiles $HOME/.dotfiles
 function config {
-   /usr/bin/git --git-dir=$HOME/.projects/ --work-tree=$HOME $@
+   /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
 mkdir -p .config-backup
 config checkout
