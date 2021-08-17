@@ -96,6 +96,7 @@ base_packages:
     - cpulimit
     - nnn
     - adapta-gtk-theme
+    - kvantum-qt5
 
 filesystem_packages:
     - dosfstools
