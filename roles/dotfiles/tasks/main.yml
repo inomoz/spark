@@ -6,7 +6,7 @@
   
 - name: Install dotfiles
   ansible.builtin.shell: |
-    yadm clone git@github.com:inomoz/dotfiles.git
+    yadm clone https://github.com/inomoz/dotfiles
   args:
     executable: /bin/bash
   delegate_to: localhost
