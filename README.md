@@ -1,16 +1,5 @@
 # Spark
 
-If you wanted to just run the “configuration” and “packages” part of a very long playbook, you could do this:
-```
-ansible-playbook example.yml --tags "configuration,packages"
-```
-
-On the other hand, if you want to run a playbook without certain tasks, you could do this:
-
-```
-ansible-playbook example.yml --skip-tags "notification"
-```
-
 ## Initialize dotfiles
 ```
 cd /tmp
@@ -23,8 +12,6 @@ cp -irT dotfiles-master/ ~/
 git clone git@github.com:inomoz/polybar-scripts.git $HOME/scripts/
 git clone --bare git@github.com:inomoz/dotfiles.git $HOME/.dotfiles
 ```
-
-TODO: check fonts tasks
 
 ## Trust active networks
 ```
@@ -90,6 +77,11 @@ These tasks will be skipped if the `dotfiles` variable is not defined.
 
 All tasks are tagged with their role, allowing them to be skipped by tag in
 addition to modifying `playbook.yml`.
+
+If you wanted to just run the “configuration” and “packages” part of a very long playbook, you could do this:
+```
+ansible-playbook playbook.yml --tags "fonts,laptop"
+```
 
 ## AUR
 
