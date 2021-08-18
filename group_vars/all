@@ -39,6 +39,7 @@ aur:
         - crow-translate
         - drawio-desktop-bin
         - deadbeef-git
+        - ripcord
         
 
 ssh:
