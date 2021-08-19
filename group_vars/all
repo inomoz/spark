@@ -42,7 +42,6 @@ aur:
         - ripcord
         - pycharm-professional
         - clion
-        
 
 ssh:
     port: 22
