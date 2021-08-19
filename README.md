@@ -121,24 +121,6 @@ The `firejail.blacklist` variable is used to populate
 This file is included by all security profiles, causing the specified locations
 to be inaccessible to jailed programs.
 
-## MAC Spoofing
-
-By default, the MAC address of all network interfaces is spoofed at boot,
-before any network services are brought up. This is done with [macchiato][11],
-which uses legitimate OUI prefixes to make the spoofing less recognizable.
-
-MAC spoofing is desirable for greater privacy on public networks, but may be
-inconvenient on home or corporate networks where a consistent (if not real) MAC
-address is wanted for authentication. To work around this, allow `macchiato` to
-randomize the MAC on boot, but tell NetworkManager to clone the real (or a fake
-but consistent) MAC address in its profile for the trusted networks. This can
-be done in the GUI by populating the "Cloned MAC address" field for the
-appropriate profiles, or by setting the `cloned-mac-address` property in the
-profile file at `/etc/NetworkManager/system-connections/`.
-
-Spoofing may be disabled entirely by setting the `network.spoof_mac` variable
-to `False`.
-
 ## Trusted Networks
 
 The trusted network framework provided by [nmtrust][12] is leveraged to start
@@ -275,26 +257,6 @@ configuration.
 [parcimonie.sh][24] is provided to periodically refresh entries in the user's
 GnuPG keyring over the Tor network. The service is added to
 `/etc/nmtrust/trusted_units` and respects the `tor.run_on` variable.
-
-
-## BitlBee
-
-[BitlBee][25] and [WeeChat][26] are used to provide chat services. A systemd
-service unit for BitlBee is installed, but not enabled or started by default.
-Instead, the service is added to `/etc/nmtrust/trusted_units`, causing the
-NetworkManager trusted unit dispatcher to activate the service whenever a
-connection is established to a trusted network. The service is stopped whenever
-the network goes down or a connection is established to an untrusted network.
-
-To have the service activated at boot, change the `bitlbee.run_on` variable
-from `trusted` to `all`.
-
-If the `bitlbee.run_on` variable is set to anything other than `trusted` or
-`all`, the service will never be activated.
-
-By default BitlBee will be configured to proxy through Tor. To disable this,
-remove the `bitlebee.torify` variable or disable Tor entirely by removing the
-`tor` variable.
 
 ## git-annex
 
