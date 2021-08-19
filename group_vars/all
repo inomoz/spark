@@ -40,6 +40,8 @@ aur:
         - drawio-desktop-bin
         - deadbeef-git
         - ripcord
+        - pycharm-professional
+        - clion
         
 
 ssh:
