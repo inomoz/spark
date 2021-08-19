@@ -120,6 +120,7 @@ base_packages:
     - rclone
     - simplescreenrecorder
     - krita
+    - proxychains-ng
 
 filesystem_packages:
     - dosfstools
