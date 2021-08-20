@@ -42,7 +42,7 @@ aur:
         - ripcord
         - pycharm-professional
         - clion
-
+        - pipe-viewer-git
 ssh:
     port: 22
     user_key: /root/id_rsa
