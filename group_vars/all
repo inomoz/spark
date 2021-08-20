@@ -70,8 +70,8 @@ editors:
     - neovim
 
 video_drivers:
-    - libva-intel-driver
-
+    - nvidia
+    
 base_packages:
     - base-devel
     - man-db
