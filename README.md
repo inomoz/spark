@@ -1,5 +1,8 @@
 # Spark
 
+TODO:
+- add kodi https://github.com/jose1711/kodi-ansible-role
+
 ## Initialize dotfiles
 
 ```
