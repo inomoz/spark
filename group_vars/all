@@ -26,12 +26,10 @@ aur:
     packages:
         - yay
         - downgrade
-        - zplug
         - miller
         - myrepos
         - ctmg
         - spiped
-        - bitlbee
         - polybar
         - slack-desktop
         - yadm
