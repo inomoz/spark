@@ -28,6 +28,12 @@
     name: "{{ video_drivers }}"
     state: present
 
+- name: Enable nvidia config
+  template: src=90-mhwd.conf dest=/etc/X11/xorg.conf.d/90-mhwd.conf
+  when: video_drivers == 'nvidia'
+  tags:
+    - video_drivers
+
 - name: Add user to video group
   user: name={{ user.name }} groups=video append=yes
   tags:
