@@ -120,7 +120,7 @@ base_packages:
     - simplescreenrecorder
     - krita
     - proxychains-ng
-    - xf86-input-wacom
+    - kodi
 
 filesystem_packages:
     - dosfstools
