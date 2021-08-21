@@ -3,10 +3,23 @@
   git: repo='https://github.com/inomoz/polybar-scripts' dest=/home/{{ user.name }}/scripts/polybar-scripts accept_hostkey=yes update=no
   become: yes
   become_user: "{{ user.name }}"
+  
 - name: Clone rofi-buku
   git: repo='https://github.com/inomoz/rofi-buku' dest=/home/{{ user.name }}/scripts/rofi-buku accept_hostkey=yes update=no
   become: yes
   become_user: "{{ user.name }}"
+  
+- name: Clone wtwitch
+  git: repo='https://github.com/inomoz/wtwitch' dest=/home/{{ user.name }}/scripts/wtwitch accept_hostkey=yes update=no
+  become: yes
+  become_user: "{{ user.name }}"
+  
+- name: Create a symbolic link for wtwitch
+  file:
+    src: /home/{{ user.name }}/scripts/wtwitch/src/wtwitch
+    dest: /usr/local/bin/wtwitch
+    state: link
+  
 - name: Install dotfiles
   ansible.builtin.shell: |
     yadm clone https://github.com/inomoz/dotfiles
