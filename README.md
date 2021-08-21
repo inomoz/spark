@@ -1,11 +1,5 @@
 # Spark
 
-## Initialize dotfiles
-
-```
-git clone git@github.com:inomoz/polybar-scripts.git $HOME/scripts/
-```
-
 ## Trust active networks
 ```
 nmcli --terse -f uuid conn show --active > /etc/nmtrust/trusted_networks
