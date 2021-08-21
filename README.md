@@ -1,10 +1,5 @@
 # Spark
 
-## Trust active networks
-```
-nmcli --terse -f uuid conn show --active > /etc/nmtrust/trusted_networks
-```
-
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
 [Arch Linux][2]. It is intended to run locally on a fresh Arch install (ie,
 taking the place of any [post-installation][3]), but due to Ansible's
@@ -132,6 +127,10 @@ Trusted networks are defined using their NetworkManager UUIDs, configured in
 the `network.trusted_uuid` list. NetworkManager UUIDs may be discovered using
 `nmcli con`.
 
+You can also trust active networks by this command
+```
+nmcli --terse -f uuid conn show --active > /etc/nmtrust/trusted_networks
+```
 
 ## Mail
 
