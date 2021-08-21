@@ -90,6 +90,7 @@
     - { role: aria2, tags: ['aria2'] }
     - { role: arduino, tags: ['arduino'] }
     - { role: docker, tags: ['docker'] }
+    - { role: wacom, tags: ['wacom'] }
     # - { role: signal, tags: ['signal'] }
     - { role: android, tags: ['android'] }
     - { role: ripgrep, tags: ['ripgrep'] }
