@@ -95,6 +95,7 @@
     - { role: android, tags: ['android'] }
     - { role: ripgrep, tags: ['ripgrep'] }
     - { role: zeal, tags: ['zeal'] }
+    - { role: kodi, tags: ['kodi'] }
   vars_prompt:
     - name: user_password
       prompt: "Enter desired user password"
