@@ -119,8 +119,6 @@ base_packages:
     - simplescreenrecorder
     - krita
     - proxychains-ng
-    - arduino-cli 
-    
 
 filesystem_packages:
     - dosfstools
