@@ -119,7 +119,6 @@ base_packages:
     - simplescreenrecorder
     - krita
     - proxychains-ng
-    - arduino-avr-core 
     - arduino-cli 
     
 
