@@ -1,0 +1,16 @@
+ 
+---
+- name: Install xf86-input-wacom
+  pacman:
+    name: xf86-input-wacom
+    state: present
+
+- name: Configure wacom udev rule
+  template: src=99-wacom.rules.j2 dest=/etc/udev/rules.d/99-wacom.rules
+  
+- name: Push wacom service file
+  template:
+    src: wacom.service.j2
+    dest: /etc/systemd/user/wacom.service
+  notify:
+    - reload systemd config
