@@ -121,6 +121,8 @@ base_packages:
     - krita
     - proxychains-ng
     - kodi
+    - polkit
+    - polkit-gnome
 
 filesystem_packages:
     - dosfstools
