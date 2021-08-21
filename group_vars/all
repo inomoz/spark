@@ -41,6 +41,7 @@ aur:
         - pycharm-professional
         - clion
         - pipe-viewer-git
+        - kbd-tapper
 ssh:
     port: 22
     user_key: /root/id_rsa
@@ -119,6 +120,7 @@ base_packages:
     - simplescreenrecorder
     - krita
     - proxychains-ng
+    - xf86-input-wacom
 
 filesystem_packages:
     - dosfstools
