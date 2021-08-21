@@ -5,6 +5,9 @@
     name: xf86-input-wacom
     state: present
 
+- name: Push wacom mapper script
+  template: src=wacom-config.sh.j2 dest=/usr/local/bin/wacom-config.sh mode=0755
+  
 - name: Configure wacom udev rule
   template: src=99-wacom.rules.j2 dest=/etc/udev/rules.d/99-wacom.rules
   
