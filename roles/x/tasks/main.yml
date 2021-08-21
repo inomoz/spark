@@ -52,6 +52,11 @@
   when: libinput.button_mapping is defined
   tags:
     - libinput
+    
+- name: Keyboard specific config
+  template: src=00-keyboard.conf dest=/etc/X11/xorg.conf.d/00-keyboard.conf
+  tags:
+    - libinput
 
 - include: sxhkd.yml
 - include: unclutter.yml
