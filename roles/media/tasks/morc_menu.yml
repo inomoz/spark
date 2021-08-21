@@ -1,0 +1,10 @@
+---
+- name: Install morc_menu
+  pacman: name=qrencode state=present
+  tags:
+    - morc_menu
+
+- name: Push morc_menu script
+  copy: src=morc_menu.sh dest=/usr/local/bin/morc_menu mode=0755
+  tags:
+    - morc_menu
