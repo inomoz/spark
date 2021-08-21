@@ -7,5 +7,3 @@
     state: started
   become: yes
   become_user: "{{ user.name }}"
-  tags:
-    - wacom
