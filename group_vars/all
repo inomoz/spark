@@ -123,6 +123,7 @@ base_packages:
     - kodi
     - polkit
     - polkit-gnome
+    - streamlink
 
 filesystem_packages:
     - dosfstools
