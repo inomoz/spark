@@ -8,9 +8,6 @@
     user: "{{ user.name }}"
   tags:
     - aur
-    
-- name: Install Bitlbee
-  aur: name=bitlbee state=present
 
 - name: Push Bitlbee configuration file
   template: src=bitlbee.conf.j2 dest=/etc/bitlbee/bitlbee.conf
