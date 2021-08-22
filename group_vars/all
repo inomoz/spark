@@ -124,6 +124,7 @@ base_packages:
     - polkit
     - polkit-gnome
     - streamlink
+    - perl-pod-parser
 
 filesystem_packages:
     - dosfstools
