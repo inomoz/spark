@@ -32,9 +32,8 @@
               regexp="^Exec="
               state=present
               line="Exec=env GTK_THEME=Adwaita:dark lightdm-gtk-greeter"
-
-- name: Force LightDM cursor theme
-  lineinfile: dest=/usr/share/icons/default/index.theme
-              regexp="^Inherits="
-              state=present
-              line="Inherits=macOSBigSur"
+              
+- name: Force set LightDM cursor theme
+  template:
+    src: index.theme.j2
+    dest: /usr/share/icons/default/index.theme
