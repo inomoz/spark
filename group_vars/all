@@ -34,6 +34,7 @@ aur:
         - slack-desktop
         - yadm
         - cursor-theme-macos-big-sur
+        - matcha-gtk-theme
         - crow-translate
         - drawio-desktop-bin
         - deadbeef-git
