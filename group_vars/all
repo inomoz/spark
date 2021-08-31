@@ -126,6 +126,7 @@ base_packages:
     - polkit-gnome
     - streamlink
     - perl-pod-parser
+    - papirus-icon-theme
 
 filesystem_packages:
     - dosfstools
