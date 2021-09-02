@@ -65,3 +65,10 @@
     state: present
   tags:
     - pigz
+
+- name: Install engrampa
+  pacman:
+    name: engrampa
+    state: present
+  tags:
+    - engrampa
