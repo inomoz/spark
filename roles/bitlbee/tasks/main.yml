@@ -2,9 +2,6 @@
 - name: Install libOTR
   pacman: name=libotr state=present
 
-- name: Install Bitlbee
-  aur: name=bitlbee state=present
-
 - name: Install Bitlbee libpurple
   aur:
     name: bitlbee-libpurple
