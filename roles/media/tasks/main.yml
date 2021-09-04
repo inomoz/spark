@@ -42,6 +42,16 @@
     name: youtube-dl
     state: present
 
+- name: Install streamlink
+  pacman:
+    name: streamlink
+    state: presen
+
+- name: Install simplescreenrecorder
+  pacman:
+    name: simplescreenrecorder
+    state: presen
+
 - name: Install zbar
   pacman:
     name: zbar

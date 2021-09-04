@@ -111,13 +111,10 @@ base_packages:
     - rofi-pass
     - grive
     - rclone
-    - simplescreenrecorder
-    - krita
     - proxychains-ng
     - kodi
     - polkit
     - polkit-gnome
-    - streamlink
     - perl-pod-parser
     - papirus-icon-theme
 
