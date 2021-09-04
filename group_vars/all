@@ -105,7 +105,6 @@ base_packages:
     - godot
     - remmina
     - rclone
-    - polkit
     - polkit-mate
     - perl-pod-parser
     - papirus-icon-theme
