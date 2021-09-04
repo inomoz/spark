@@ -105,7 +105,6 @@ base_packages:
     - godot
     - remmina
     - rclone
-    - proxychains-ng
     - polkit
     - polkit-gnome
     - perl-pod-parser
