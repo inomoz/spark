@@ -111,7 +111,6 @@ base_packages:
     - rofi-pass
     - rclone
     - proxychains-ng
-    - kodi
     - polkit
     - polkit-gnome
     - perl-pod-parser
