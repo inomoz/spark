@@ -43,6 +43,7 @@ aur:
         - clion
         - pipe-viewer-git
         - kbd-tapper
+        - selectdefaultapplication
 ssh:
     port: 22
     user_key: /root/id_rsa
