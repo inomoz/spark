@@ -5,6 +5,8 @@
 - include: imagemagick.yml
 - include: inkscape.yml
 - include: gimp.yml
+- include: freecad.yml
+- include: blender.yml
 - include: gthumb.yml
 - include: feh.yml
 - include: imv.yml

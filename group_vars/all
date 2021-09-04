@@ -105,7 +105,6 @@ base_packages:
     - kdenlive
     - klavaro
     - calibre
-    - blender
     - picom
     - copyq
     - godot
