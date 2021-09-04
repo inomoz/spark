@@ -30,6 +30,11 @@
   tags:
     - video-drivers
 
+- name: Install picom X compositor
+  pacman: name=picom state=present
+  tags:
+    - picom
+
 - name: Enable nvidia config
   template: src=90-mhwd.conf dest=/etc/X11/xorg.conf.d/90-mhwd.conf
   when: video_drivers == 'nvidia'
