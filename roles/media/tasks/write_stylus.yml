@@ -1,0 +1,8 @@
+---
+- name: Install write_stylus
+  aur:
+    name: write_stylus
+    user: "{{ user.name }}"
+  tags:
+    - aur
+    - write_stylus
