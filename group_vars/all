@@ -104,7 +104,6 @@ base_packages:
     - copyq
     - godot
     - remmina
-    - rofi-pass
     - rclone
     - proxychains-ng
     - polkit
