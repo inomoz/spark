@@ -1,0 +1,16 @@
+---
+- name: Install FreeCAD
+  pacman:
+    name:
+      - freecad
+    state: present
+  tags:
+    - freecad
+
+- name: Jail FreeCAD
+  file: src=/usr/bin/firejail
+        dest=/usr/bin/freecad
+        state=link
+  tags:
+    - freecad
+    - firejail
