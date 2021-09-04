@@ -1,0 +1,13 @@
+---
+- name: Install kdenlive
+  pacman: name=kdenlive state=present
+  tags:
+    - kdenlive
+
+- name: Jail kdenlive
+  file: src=/usr/bin/firejail
+        dest=/usr/local/kdenlive
+        state=link
+  tags:
+    - kdenlive
+    - firejai
