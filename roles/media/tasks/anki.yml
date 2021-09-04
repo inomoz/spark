@@ -1,0 +1,16 @@
+---
+- name: Install Anki
+  pacman:
+    name:
+      - anki
+    state: present
+  tags:
+    - anki
+
+- name: Jail anki
+  file: src=/usr/bin/firejail
+        dest=/usr/bin/anki
+        state=link
+  tags:
+    - anki
+    - firejail

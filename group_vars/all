@@ -99,7 +99,6 @@ base_packages:
     - cpulimit
     - nnn
     - kvantum-qt5
-    - anki
     - audacity
     - kdenlive
     - klavaro
