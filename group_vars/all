@@ -109,7 +109,6 @@ base_packages:
     - godot
     - remmina
     - rofi-pass
-    - grive
     - rclone
     - proxychains-ng
     - kodi
