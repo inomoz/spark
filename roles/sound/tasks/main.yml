@@ -30,6 +30,13 @@
   tags:
     - aur
 
+- name: Install flacon
+  aur:
+    name: flacon
+    user: "{{ user.name }}"
+  tags:
+    - aur
+    
 - name: Push pamute
   copy:
     src: pamute/pamute
