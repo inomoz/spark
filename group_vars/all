@@ -98,7 +98,6 @@ base_packages:
     - fzf
     - cpulimit
     - nnn
-    - adapta-gtk-theme
     - kvantum-qt5
     - anki
     - audacity
