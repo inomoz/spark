@@ -13,6 +13,7 @@
 - include: flac2all.yml
 - include: darktable.yml
 - include: qcode.yml
+- include: write_stylus.yml
 
 - name: Install misc media codecs and helpers
   pacman:
