@@ -1,0 +1,17 @@
+---
+- name: Install Skype
+  aur:
+    name: skypeforlinux-stable-bin
+    user: "{{ user.name }}"
+  tags:
+    - skype
+    - aur
+
+- name: Jail Skype
+  file:
+    src: /usr/bin/firejail
+    dest: /usr/bin/skypeforlinux
+    state: link
+  tags:
+    - skype
+    - firejail
