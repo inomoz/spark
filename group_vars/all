@@ -101,7 +101,6 @@ base_packages:
     - kvantum-qt5
     - kdenlive
     - klavaro
-    - calibre
     - copyq
     - godot
     - remmina
