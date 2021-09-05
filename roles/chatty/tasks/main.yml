@@ -1,0 +1,15 @@
+---
+- name: Install chatty
+  aur:
+    name: chatty
+    user: "{{ user.name }}"
+  tags:
+    - aur
+
+- name: Jail chatty
+  file:
+    src: /usr/bin/firejail
+    dest: /usr/bin/chatty
+    state: link
+  tags:
+    - firejail
