@@ -107,6 +107,7 @@ base_packages:
     - polkit-mate
     - perl-pod-parser
     - papirus-icon-theme
+    - wmctrl
 
 filesystem_packages:
     - dosfstools
