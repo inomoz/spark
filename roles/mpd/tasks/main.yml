@@ -2,6 +2,24 @@
 - name: Install mpd
   pacman: name=mpd state=present
 
+- name: install mpd-mpris from AUR
+  aur:
+    name: mpd-mpris
+    user: "{{ user.name }}"
+  tags:
+    - aur
+
+- name: Enalbe mpd-mpris systemd service
+  ansible.builtin.systemd:
+    name: mpd-service.service
+    scope: user
+    enabled: yes
+    state: started
+  become: yes
+  become_user: "{{ user.name }}"
+  environment:
+    XDG_RUNTIME_DIR: "/run/user/{{ user.uid }}"
+
 - name: Jail mpd
   file: src=/usr/bin/firejail
         dest=/usr/local/bin/mpd
