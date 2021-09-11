@@ -13,6 +13,7 @@
     name:
       - aspell
       - aspell-en
+      - aspell-ru
     state: present
   tags:
     - aspell
