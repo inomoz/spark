@@ -275,6 +275,7 @@ base_fonts:
 
 aur_fonts:
     - nerd-fonts-victor-mono
+    - ttf-paratype
 
 syncthing:
     run_on: trusted
