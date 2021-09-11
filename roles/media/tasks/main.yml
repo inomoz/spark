@@ -44,7 +44,14 @@
   pacman:
     name: youtube-dl
     state: present
-
+    
+- name: Install youtube-dlp
+  aur: 
+    name: youtube-dlp
+    user: "{{ user.name }}"
+  tags:
+    - aur
+    
 - name: Install streamlink
   pacman:
     name: streamlink
