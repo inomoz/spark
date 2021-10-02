@@ -1,0 +1,25 @@
+---
+- name: Install Retroarch
+  pacman:
+    name:
+      - retroarch
+      - libretro-duckstation
+      - libretro-mgba
+      - libretro-gambatte
+      - libretro-nestopia
+      - libretro-genesis-plus-gx
+      - libretro-bsnes
+      - libretro-mupen64plus-next
+      - libretro-beetle-psx-hw
+      - libretro-picodrive
+    state: present
+  tags:
+    - retroarch
+
+- name: Jail Retroarch
+  file: src=/usr/bin/firejail
+        dest=/usr/bin/retroarch
+        state=link
+  tags:
+    - retroarch
+    - firejail

@@ -10,6 +10,7 @@
 - include: kdenlive.yml
 - include: anki.yml
 - include: godot.yml
+- include: retroarch.yml
 - include: gthumb.yml
 - include: feh.yml
 - include: imv.yml
