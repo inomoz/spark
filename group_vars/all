@@ -35,10 +35,10 @@ aur:
         - ripcord
         - pycharm-professional
         - clion
-        - pipe-viewer-git
+        - ytfzf
         - kbd-tapper
         - selectdefaultapplication
-        
+
 ssh:
     port: 22
     user_key: /root/id_rsa
@@ -272,6 +272,7 @@ base_fonts:
     - ttf-droid
     - ttf-liberation
     - ttf-opensans
+    - ttf-meslo
 
 aur_fonts:
     - nerd-fonts-victor-mono
