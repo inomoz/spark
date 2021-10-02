@@ -46,7 +46,9 @@
 
 - name: Install tesseract-data-eng
   pacman:
-    name: tesseract-data-eng
+    name:
+      - tesseract-data-eng
+      - tesseract-data-rus
     state: present
   tags:
     - ocrmypdf
