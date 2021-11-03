@@ -38,6 +38,7 @@ aur:
         - ytfzf
         - kbd-tapper
         - selectdefaultapplication
+        - xkb-switch
 
 ssh:
     port: 22
