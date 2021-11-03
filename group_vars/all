@@ -10,6 +10,12 @@ user:
 
 hostname: nous
 
+interception:
+    caps2esc:
+        enabled: True
+        mode: 1
+        delay: 20000
+
 dotfiles:
     url: https://github.com/pigmonkey/dotfiles.git
     destination: projects/dotfiles
@@ -70,7 +76,7 @@ editors:
 
 video_drivers:
     - nvidia
-    
+
 base_packages:
     - base-devel
     - man-db
@@ -295,4 +301,4 @@ pkgfile:
 hardened:
     enable_namespaces: true
 
-kernel_parameters: 
+kernel_parameters:
