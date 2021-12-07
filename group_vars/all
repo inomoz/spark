@@ -115,6 +115,7 @@ base_packages:
     - perl-pod-parser
     - papirus-icon-theme
     - wmctrl
+    - easytag
 
 filesystem_packages:
     - dosfstools
