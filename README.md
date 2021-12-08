@@ -27,6 +27,7 @@ Second, install and update the submodules:
     $ git submodule init && git submodule update
     
 Run the playbook as root.
+
     1. edit 
     group_vars/all
 
