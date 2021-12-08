@@ -113,6 +113,7 @@ base_packages:
     - papirus-icon-theme
     - wmctrl
     - easytag
+    - yadm
 
 filesystem_packages:
     - dosfstools
