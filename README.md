@@ -28,10 +28,13 @@ Second, install and update the submodules:
     
 Run the playbook as root.
 
-    1. edit 
+    1. Edit 
     group_vars/all
+    
+    2. Also add trusted network to  group_vars/all
+    nmcli --terse -f uuid conn show --active
 
-    2. run
+    3. Run
     # ANSIBLE_RETRY_FILES_ENABLED=1 ansible-playbook -i localhost playbook.yml
 
 When run, Ansible will prompt for the user password. This only needs to be
