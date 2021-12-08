@@ -4,7 +4,7 @@
 
 - name: Jail qbittorrent-nox
   file: src=/usr/bin/firejail
-        dest=/usr/bin/qbittorrent-nox
+        dest=/bin/qbittorrent-nox
         state=link
   tags:
     - firejail
