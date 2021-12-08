@@ -1,14 +1,5 @@
 # Spark
 
-## Guide
-```
-1. edit 
-group_vars/all
-
-2. run
-# ANSIBLE_RETRY_FILES_ENABLED=1 ansible-playbook -i localhost playbook.yml
-```
-
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
 [Arch Linux][2]. It is intended to run locally on a fresh Arch install (ie,
 taking the place of any [post-installation][3]), but due to Ansible's
@@ -36,8 +27,11 @@ Second, install and update the submodules:
     $ git submodule init && git submodule update
     
 Run the playbook as root.
+    1. edit 
+    group_vars/all
 
-    # ansible-playbook -i localhost playbook.yml
+    2. run
+    # ANSIBLE_RETRY_FILES_ENABLED=1 ansible-playbook -i localhost playbook.yml
 
 When run, Ansible will prompt for the user password. This only needs to be
 provided on the first run when the user is being created. On later runs,
