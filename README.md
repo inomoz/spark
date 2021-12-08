@@ -2,9 +2,13 @@
 
 ## Guide
 ```
-1. edit group_vars/all
+1. edit 
+group_vars/all
 
+2. run
+# ANSIBLE_RETRY_FILES_ENABLED=1 ansible-playbook -i localhost playbook.yml
 ```
+
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
 [Arch Linux][2]. It is intended to run locally on a fresh Arch install (ie,
 taking the place of any [post-installation][3]), but due to Ansible's
