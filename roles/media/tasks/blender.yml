@@ -6,11 +6,3 @@
     state: present
   tags:
     - blender
-
-- name: Jail blender
-  file: src=/usr/bin/firejail
-        dest=/usr/bin/blender
-        state=link
-  tags:
-    - blender
-    - firejail
