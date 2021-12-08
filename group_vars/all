@@ -147,7 +147,7 @@ bitlbee:
     run_on: trusted
     torify: True
 
-bootloader: grub
+bootloader: efi
 
 postgresql:
     enable: True
