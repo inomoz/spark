@@ -1,6 +1,5 @@
 ---
 # - include: beets.yml
-- include: osdlyrics.yml
 - include: abcde.yml
 - include: imagemagick.yml
 - include: inkscape.yml
