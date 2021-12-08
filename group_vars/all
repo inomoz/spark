@@ -36,12 +36,8 @@ aur:
         - matcha-gtk-theme
         - crow-translate
         - drawio-desktop-bin
-        - deadbeef-git
-        - ripcord
         - ytfzf
         - kbd-tapper
-        - selectdefaultapplication
-        - xkb-switch
 
 ssh:
     port: 22
