@@ -92,7 +92,7 @@
     - { role: docker, tags: ['docker'] }
     - { role: wacom, tags: ['wacom'] }
     # - { role: signal, tags: ['signal'] }
-    - { role: skype, tags: ['skype'] }
+    # - { role: skype, tags: ['skype'] }
     - { role: android, tags: ['android'] }
     - { role: ripgrep, tags: ['ripgrep'] }
     - { role: zeal, tags: ['zeal'] }
