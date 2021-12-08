@@ -41,7 +41,6 @@ aur:
 
 ssh:
     port: 22
-    user_key: /root/id_rsa
     enable_sshd: False
 
 gnupg:
