@@ -7,7 +7,6 @@
 - include: freecad.yml
 - include: blender.yml
 - include: kdenlive.yml
-- include: anki.yml
 - include: godot.yml
 - include: retroarch.yml
 - include: gthumb.yml
