@@ -38,6 +38,7 @@ aur:
         - drawio-desktop-bin
         - ytfzf
         - kbd-tapper
+        - hardcode-tray
 
 ssh:
     port: 22
