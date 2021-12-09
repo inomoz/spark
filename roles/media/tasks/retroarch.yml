@@ -15,11 +15,3 @@
     state: present
   tags:
     - retroarch
-
-- name: Jail Retroarch
-  file: src=/usr/bin/firejail
-        dest=/usr/bin/retroarch
-        state=link
-  tags:
-    - retroarch
-    - firejail
