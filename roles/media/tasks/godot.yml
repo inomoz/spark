@@ -6,11 +6,3 @@
     state: present
   tags:
     - godot
-
-- name: Jail Godot
-  file: src=/usr/bin/firejail
-        dest=/usr/bin/godot
-        state=link
-  tags:
-    - godot
-    - firejail
