@@ -54,12 +54,12 @@
 - name: Install streamlink
   pacman:
     name: streamlink
-    state: presen
+    state: present
 
 - name: Install simplescreenrecorder
   pacman:
     name: simplescreenrecorder
-    state: presen
+    state: present
 
 - name: Install zbar
   pacman:
