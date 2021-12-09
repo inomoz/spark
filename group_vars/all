@@ -277,6 +277,7 @@ aur_fonts:
     - nerd-fonts-victor-mono
     - ttf-paratype
     - ttf-iosevka-nerd
+    - ttf-weather-icons
 
 syncthing:
     run_on: trusted
