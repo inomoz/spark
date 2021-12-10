@@ -113,6 +113,10 @@ base_packages:
     - yadm
     - qt5ct
     - trash-cli
+    - editorconfig-core-c 
+    - shellcheck tidy 
+    - python-pipenv 
+    - stylelint
 
 filesystem_packages:
     - dosfstools
