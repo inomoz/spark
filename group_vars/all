@@ -39,6 +39,7 @@ aur:
         - ytfzf
         - kbd-tapper
         - hardcode-tray
+        - i3-resurrect
 
 ssh:
     port: 22
