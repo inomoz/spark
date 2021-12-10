@@ -40,6 +40,7 @@ aur:
         - kbd-tapper
         - hardcode-tray
         - i3-resurrect
+        - glrnvim
 
 ssh:
     port: 22
