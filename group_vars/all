@@ -111,6 +111,7 @@ base_packages:
     - easytag
     - yadm
     - qt5ct
+    - trash-cli
 
 filesystem_packages:
     - dosfstools
