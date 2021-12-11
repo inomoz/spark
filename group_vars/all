@@ -117,6 +117,8 @@ base_packages:
     - shellcheck tidy 
     - python-pipenv 
     - stylelint
+    - notmuch
+    - afew
 
 filesystem_packages:
     - dosfstools
