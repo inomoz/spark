@@ -119,6 +119,7 @@ base_packages:
     - stylelint
     - notmuch
     - afew
+    - python-pynvim
 
 filesystem_packages:
     - dosfstools
