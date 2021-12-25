@@ -65,6 +65,5 @@
 
 - include: sxhkd.yml
 - include: unclutter.yml
-- include: autorandr.yml
 - include: autocutsel.yml
 - include: xdg.yml
