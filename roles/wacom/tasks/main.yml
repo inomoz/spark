@@ -1,4 +1,5 @@
- 
+# If you have issues, try copy wacom config
+# sudo cp /usr/share/X11/xorg.conf.d/70-wacom.conf /etc/X11/xorg.conf.d/70-wacom.conf
 ---
 - name: Install xf86-input-wacom
   pacman:
