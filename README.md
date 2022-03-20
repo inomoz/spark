@@ -4,7 +4,7 @@ todo:
 - open barrier port (sudo iptables -I INPUT -p tcp --dport 24800 --syn -j ACCEPT)
 - blueman
 - bat fd direnv python-pyflakes editorconfig-core-c shellcheck tidy stylelint js-beautify rustup rustup-src xsel
-- noto-fonts-emoji wkhtmltopdf
+- noto-fonts-emoji wkhtmltopdf  texlive-fontsextra 
 - expac
 
 Spark is an [Ansible][1] playbook meant to provision a personal machine running
